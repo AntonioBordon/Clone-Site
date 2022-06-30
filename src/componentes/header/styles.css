@@ -42,11 +42,11 @@
 .button-entrar{
     position: absolute;
     right: 20px;
-    font-weight: bold;
     color: white;
     border: 1px solid #fff;
+    border-radius: 2px;
     background-color: transparent;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 20px 10px 20px;
     opacity: 70%;
 }
 
@@ -69,41 +69,12 @@ a:hover{
 }
 
 .lista-de-links_li{
-    padding: 15px;
+    padding: 10px;
 }
 
 .lista-de-links{
     display: flex;
-}
-
-.dropbtn {
-    color: white;
-    padding: 16px;
     font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #2b2b2b;
-    min-width: 250px;
-  }
-  
-  .dropdown-content a {
-    color: #fff ;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
+    align-items: center;
+    padding-left: 0.3em;
+}

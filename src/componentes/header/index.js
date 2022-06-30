@@ -1,9 +1,10 @@
 import React from "react";
-import "../header/styles.css";
-import logo from "./Bethesda_Softworks_Logo.svg";
-import logo2 from "./franchise-icon-elderscrolls.svg";
-import { IoIosSearch, IoIosMenu } from "react-icons/io";
-import Dropdown from "../dropdown";
+import "./styles.css";
+import logo from "./svg/Bethesda_Softworks_Logo.svg";
+import logo2 from "./svg/franchise-icon-elderscrolls.svg";
+import { IoIosSearch, IoIosMenu, IoIosArrowDown } from "react-icons/io";
+import Dropdown from "./dropdown";
+import Dropdown_extenso from "./dropdown_extenso"
 
 const Header = () => {
     return (
@@ -19,8 +20,8 @@ const Header = () => {
             <div className="container2">
                 <ul className="lista-de-links">
                     <li className="lista-de-links_li"><a href="/"><img src={logo2} /></a></li>
-                    <li className="lista-de-links_li"><a href="/">JOGOS</a></li>
-                    <li className="lista-de-links_li"><a href="/">NOVIDADES</a></li>
+                    <Dropdown_extenso />
+                    <li className="lista-de-links_li"><a href="/">NOVITÁ</a></li>
                     <li className="lista-de-links_li"><a href="/">SUPORTE</a></li>
                     <li className="lista-de-links_li"><a href="/">COMUNIDADE</a></li>
                     <Dropdown />
