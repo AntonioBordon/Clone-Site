@@ -21,7 +21,7 @@ const Header = () => {
                 <ul className="lista-de-links">
                     <li className="lista-de-links_li"><a href="/"><img src={logo2} /></a></li>
                     <Dropdown_extenso />
-                    <li className="lista-de-links_li"><a href="/">NOVITÁ</a></li>
+                    <li className="lista-de-links_li"><a href="/">NOVITÀ</a></li>
                     <li className="lista-de-links_li"><a href="/">SUPORTE</a></li>
                     <li className="lista-de-links_li"><a href="/">COMUNIDADE</a></li>
                     <Dropdown />

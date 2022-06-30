@@ -35,7 +35,7 @@
 .dropdown-contentt{
     background: #2b2b2b;
     padding-left: 3.5rem;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     padding-bottom: 2rem;
     color: white;
 }
@@ -47,4 +47,8 @@
 .jogos-img{
     width: 8em;
     padding-left: 2em;
+}
+
+span{
+    cursor: pointer;
 }

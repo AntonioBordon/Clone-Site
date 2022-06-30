@@ -13,31 +13,13 @@ const Dropdown_extenso = () => {
             <li className="lista-de-links_li dropbtnn"><a href="/">JOGOS<IoIosArrowDown /></a></li>
             <div className="dropdown-contentt">
                 <ul>
-                    <li id="lançamentos">
+                    <li>
                         <span>NOVOS LANÇAMENTOS</span>
                     </li>
-                    <li id="legado">
+                    <li>
                         <span>LEGADO</span>
                     </li>
                 </ul>
-                <div className="dropdown-imagens">
-                    <a>
-                        <img className="jogos-img" src={imagen1}></img>
-                        <span>BLACKWOOD</span>
-                    </a>
-                    <a>
-                        <img className="jogos-img" src={imagen2}></img>
-                        <span>BLADES</span>
-                    </a>
-                    <a>
-                        <img className="jogos-img" src={imagen3}></img>
-                        <span>SKYRIM</span>
-                    </a>
-                    <a>
-                        <img className="jogos-img" src={imagen4}></img>
-                        <span>LEGENDS</span>
-                    </a>
-                </div>
             </div>
         </div>
     )
