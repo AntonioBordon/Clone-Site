@@ -1,0 +1,117 @@
+.container{
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon-menu{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.icon-menu:hover{
+    opacity: 70%;
+}
+
+.logo{
+    width: 90px;
+    padding-left: 30px;
+
+}
+.logo:hover{
+    opacity: 70%;
+    cursor: pointer;    
+}
+
+
+.icon-search{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 15px;
+    position: absolute;
+    right: 250px;
+}
+
+.icon-search:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.button-entrar{
+    font-size: 13px;
+    position: absolute;
+    right: 20px;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 10px 25px ;
+    opacity: 70%;
+}
+
+.button-entrar:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.container2{
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.lista-de-links_li{
+    padding: 10px;
+}
+
+.lista-de-links_li:hover{
+    opacity: 70%;
+}
+
+.lista-de-links{
+    display: flex;
+    font-size: 16px;
+    align-items: baseline;
+    padding-left: 0.3em;
+}
+
+.button-header{
+    margin-right: 2em;
+}
+
+.button-atualizacoes{
+    cursor: pointer;
+    line-height: 1.2;
+    font-family: 'Gentium Book Plus', serif;
+    margin-right: 1em;
+    min-height: 42px;
+    padding: 0 70px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.800);
+    background-color: black;
+    clip-path: polygon(calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 20px 100%, 0 50%, 20px 0%);
+}
+
+.button-comprar{
+    cursor: pointer;
+    line-height: 1.2;
+    font-family: 'Gentium Book Plus', serif;
+    margin-right: 1em;
+    min-height: 42px;
+    padding: 0 40px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border: rgb(134, 170, 184);
+    background-color: rgb(134, 170, 184);
+    clip-path: polygon(calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 20px 100%, 0 50%, 20px 0%);
+}
